@@ -1,7 +1,7 @@
 # GitPR 
 
 
-Forks and Pull Requests -  https://youtu.be/a_FLqX3vGR4
+** Forks and Pull Requests -  https://youtu.be/a_FLqX3vGR4 **
 1. Copy of initial repo is called Fork - UserA, Upstream repo - Original repo
 2. Copy link of the original repo
 3. git clone https://github.com/RebeccaDmello/ESharing.git
@@ -22,6 +22,12 @@ Forks and Pull Requests -  https://youtu.be/a_FLqX3vGR4
 18. git push
 19. Compare across forks
 
-
-
+** Adding Repo to your own GitHub **
+1. Create a repo on Github
+2. Create a local repo of same Name
+3. git init
+4. git add .
+5. git commit -m "On Main"
+6. git remote add origin https://github.com/RebeccaDmello/PHP.git
+7. git push --force origin main
 
