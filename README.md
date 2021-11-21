@@ -1,6 +1,7 @@
-# GitPR - https://youtu.be/a_FLqX3vGR4
+# GitPR 
 
-Forks and Pull Requests
+
+Forks and Pull Requests -  https://youtu.be/a_FLqX3vGR4
 1. Copy of initial repo is called Fork - UserA, Upstream repo - Original repo
 2. Copy link of the original repo
 3. git clone https://github.com/RebeccaDmello/ESharing.git
