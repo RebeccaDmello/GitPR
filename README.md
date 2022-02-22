@@ -26,6 +26,15 @@ Push an existing Git repository
 4. git push -u origin --all
 5. git push -u origin --tags
 
+Git ssl error
+1. git config --global http.ssl verify false
+
+Issue with pushing - showing fatal error // git remote -v
+1. git remote remove origin
+2. git remote add origin <your repo url>
+3. git remote -v
+4. git push origin master
+  
 ** Forks and Pull Requests -  https://youtu.be/a_FLqX3vGR4 **
 1. Copy of initial repo is called Fork - UserA, Upstream repo - Original repo
 2. Copy link of the original repo
