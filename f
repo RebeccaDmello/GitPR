@@ -1,4 +1,34 @@
-let ul = document.getElementById("favouritesList");
+async function getMovies() {
+	let response = await fetch('http://localhost:3000/movies');
+	let ul = document.getElementById("moviesList");
+	let data = await response.json();
+	for (let index = 0; index < data.length; index++) {
+		const element = data[index];
+		var li = document.createElement('li');
+		li.innerHTML  = JSON.stringify(element) ;
+		ul.appendChild(li);
+	}
+	return data;
+}
+
+async function getFavourites() {
+	let response = await fetch('http://localhost:3000/favourites');
+	let ul = document.getElementById("favouritesList");
+	let data = await response.json();
+	for (let index = 0; index < data.length; index++) {
+		const element = data[index];
+		var li = document.createElement('li');
+		li.innerHTML  = JSON.stringify(element) ;
+		ul.appendChild(li);
+	}
+	
+	
+	return data;
+}
+
+async function addFavourite(id) {
+	//Do API Calls
+	let ul = document.getElementById("favouritesList");
 	
 	let isDuplicate = false;
 	for (index = 0 ; index <ul.childNodes.length ; index ++){
@@ -35,3 +65,4 @@ let ul = document.getElementById("favouritesList");
 	
 	//return data as JSON
 	return allData;
+	}
