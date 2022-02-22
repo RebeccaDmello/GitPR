@@ -1,30 +1,30 @@
 # GitPR 
 
 Initial commands
-`git config --global user.name "rebecca"
-git config --global user.email "rebecca@xyz.com"`
+1. git config --global user.name "rebecca"
+2. git config --global user.email "rebecca@xyz.com"
 
 Create a new reporistory**
-`git clone https://gitlab-cgi.stackroute.in/rebecca/xyz.git
-cd xyz
-git add .
-git commit -m "Added zyx feature"
-git push -u origin master`
+1. git clone https://gitlab-cgi.stackroute.in/rebecca/xyz.git
+2. cd xyz
+3. git add .
+4. git commit -m "Added zyx feature"
+5. git push -u origin master
 
 Push an existing folder**
-`cd exitsing_folder
-git init
-git remote add origin https://gitlab-cgi.stackroute.in/rebeccamoses.dmello/xyz.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master`
+1. cd exitsing_folder
+2. git init
+3. git remote add origin https://gitlab-cgi.stackroute.in/rebeccamoses.dmello/xyz.git
+4. git add .
+5. git commit -m "Initial commit"
+6. git push -u origin master
 
 Push an existing Git repository
-`cd existing_repo
-git remote rename origin old-origin
-git remote add origin https://gitlab-cgi.stackroute.in/rebecca/xyz.git
-git push -u origin --all
-git push -u origin --tags`
+1. cd existing_repo
+2. git remote rename origin old-origin
+3. git remote add origin https://gitlab-cgi.stackroute.in/rebecca/xyz.git
+4. git push -u origin --all
+5. git push -u origin --tags
 
 ** Forks and Pull Requests -  https://youtu.be/a_FLqX3vGR4 **
 1. Copy of initial repo is called Fork - UserA, Upstream repo - Original repo
