@@ -4,6 +4,11 @@ Initial commands
 1. git config --global user.name "rebecca"
 2. git config --global user.email "rebecca@xyz.com"
 
+git checkout master
+git pull origin master
+git checkout -b feature/some-new-feature
+
+
 Create a new reporistory**
 1. git clone https://gitlab-cgi.stackroute.in/rebecca/xyz.git
 2. cd xyz
