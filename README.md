@@ -70,5 +70,12 @@ Issue with pushing - showing fatal error // git remote -v
 6. git remote add origin https://github.com/RebeccaDmello/PHP.git
 7. git push --force origin main
 
+  ** Merge Branch with Master **
+git checkout master
+git pull origin master
+git checkout branchName
+git pull origin branchName
+**git merge branchName
+**git push origin master
 
 
