@@ -71,11 +71,11 @@ Issue with pushing - showing fatal error // git remote -v
 7. git push --force origin main
 
   ** Merge Branch with Master **
-git checkout master
-git pull origin master
-git checkout branchName
-git pull origin branchName
-**git merge branchName
-**git push origin master
+1. git checkout master
+2. git pull origin master
+3. git checkout -b branchName
+4. git pull origin branchName
+5. git merge branchName
+6. git push origin master
 
 
